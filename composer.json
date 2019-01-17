@@ -26,20 +26,13 @@
     "doctrine/doctrine-bundle": "^1.6",
     "symfony/finder": "^4.2",
     "symfony/framework-bundle": "^4.2",
-    "symfony/phpunit-bridge": "^4.2"
-  },
-  "suggest": {
-    "symfony/framework-bundle": "To use the provided bundle."
+    "symfony/phpunit-bridge": "^4.2",
+    "phpunit/phpunit": "^7.5"
   },
   "autoload": {
     "psr-4": { "Effiana\\DoctrineJsonOdm\\": "src/" }
   },
   "autoload-dev": {
     "psr-4": { "Effiana\\DoctrineJsonOdm\\Tests\\": "tests/" }
-  },
-  "extra": {
-    "branch-alias": {
-      "dev-master": "1.0.x-dev"
-    }
   }
 }
