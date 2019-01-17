@@ -1,0 +1,45 @@
+{
+  "name": "effiana/doctrine-json-odm",
+  "type": "library",
+  "description": "An object document mapper for Doctrine ORM using JSON types of modern RDBMS.",
+  "keywords": ["ORM", "ODM", "JSON", "database", "RDBMS", "PostgreSQL", "MySQL"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name":   "Dominik Labudzinski",
+      "email":  "dominik@labudzinski.com"
+    },
+    {
+      "name": "Kévin Dunglas",
+      "email": "dunglas@gmail.com",
+      "homepage": "https://dunglas.fr"
+    }
+  ],
+  "require": {
+    "php": "^7.2",
+    "doctrine/orm": "^2.5",
+    "symfony/property-access": "^4.2",
+    "symfony/property-info": "^4.2",
+    "symfony/serializer": "^4.2"
+  },
+  "require-dev": {
+    "doctrine/doctrine-bundle": "^1.6",
+    "symfony/finder": "^4.2",
+    "symfony/framework-bundle": "^4.2",
+    "symfony/phpunit-bridge": "^4.2"
+  },
+  "suggest": {
+    "symfony/framework-bundle": "To use the provided bundle."
+  },
+  "autoload": {
+    "psr-4": { "Effiana\\DoctrineJsonOdm\\": "src/" }
+  },
+  "autoload-dev": {
+    "psr-4": { "Effiana\\DoctrineJsonOdm\\Tests\\": "tests/" }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0.x-dev"
+    }
+  }
+}
